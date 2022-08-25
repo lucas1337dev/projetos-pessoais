@@ -32,3 +32,7 @@
 <p><a href='https://htmlpreview.github.io/?https://github.com/lucas1337dev/projetos-pessoais/blob/main/Lista%20de%20Tarefas/index.html'>Clique aqui</a> para ver mais!</p>
 
 <hr>
+
+<h2>Relógio</h2>
+<details><strong>Relógio</strong> feito baseado no <a href='https://www.youtube.com/watch?v=Dq8S6wOeAdE&t=2s'>vídeo</a> do canal <a href='https://www.youtube.com/c/dicasparadevs'>dicasparadevs</a></details>
+<p><a href='https://htmlpreview.github.io/?https://github.com/lucas1337dev/projetos-pessoais/blob/main/Rel%C3%B3gio%20com%20JS/index.html'>Clique aqui</a> para ver mais!</p>
