@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('imgs/dark-background2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+ul {
+    margin: 0%;
+    display: flex;
+    list-style-type: none;
+    padding: 20px 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.diffTitle {
+    color: #3c1114;
+}
+
+main {
+    color: white;
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.textContainer {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer h1 {
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+.textContainer p {
+    text-align: justify;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.imgsContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+}
+
+.iconImg {
+    width: 70px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.iconImg:hover {
+    transform: scale(1.5);
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #222;
+    color: white;
+}
+
+.card-footer p {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Fade Effect */
+.fade-in {
+    animation: fadeIn 1s;
+}
+
+.fade-out {
+    animation: fadeOut 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* Nav Hover Effect */
+.nav-item a {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+}
+
+.nav-item a:after {    
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+.nav-item a:hover { 
+    color: #fff;
+}
+
+.nav-item a:hover:after {
+    width: 100%;
+}
+
+/* Responsivity */
+@media (max-width: 1100px) {
+    .iconImg {
+        width: 60px;
+        height: 80px;
+        row-gap: 20px;
+    }
+
+    .watchImg {
+        width: 220px;
+        height: 298px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .textContainer {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .textContainer h1 {
+        font-size: 1.75rem;
+    }
+
+    .textContainer p {
+        font-size: 1.25rem;
+    }
+
+    .iconImg {
+        width: 50px;
+        height: 70px;
+        row-gap: 10px;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar-brand {
+        margin-right: 10px;
+    }
+
+    .nav {
+        margin: 10px 0;
+        display: flex;
+        padding: 0;
+
+    }
+
+    .nav-item {
+        padding: 0;
+    }
+
+    .textContainer {
+        padding: 10px;
+        max-width: 80%;
+    }
+
+    .textContainer h1 {
+        font-size: 1.5rem;
+    }
+
+    .textContainer p {
+        font-size: 1rem;
+    }
+
+    .imgsContainer {
+        justify-content: center;
+        width: 100%;
+        padding: 30px 0;
+        flex-direction: row;
+        column-gap: 50px;
+    }
+
+    .iconImg {
+        width: 60px;
+        height: 80px;
+    }
+
+    .watchImg {
+        width: 180px;
+        height: 244px;
+    }
+}
+
+@media (max-width: 515px) {
+    .textContainer h1 {
+        font-size: 1.25rem;
+    }
+
+    .textContainer p {
+        font-size: 1rem;
+    }
+
+    .iconImg {
+        width: 40px;
+        height: 60px;
+    }
+
+    .watchImg {
+        width: 140px;
+        height: 190px;
+    }
+}
+
+@media (max-width: 330px) {
+    .textContainer h1 {
+        font-size: 1.25rem;
+    }
+
+    .textContainer p {
+        font-size: 0.75rem;
+    }
+
+    .watchImg {
+        width: 110;
+        height: 149;
+    }
+}

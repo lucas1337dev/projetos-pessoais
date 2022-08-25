@@ -1,0 +1,514 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #b9b9b9;
+}
+
+.oneBitLogo {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+.navbar-brand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+}
+
+.container-fluid {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container1 {
+  min-height: 100vh;
+  background-image: url("../imgs/home/01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+#button {
+  padding: 15px 35px;
+  border: 2px solid white;
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.container2 {
+  min-height: 100vh;
+  background-image: url("../imgs/home/03.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.shortTitle {
+  width: 550px;
+}
+
+.container3 {
+  min-height: 100vh;
+  background-image: url("../imgs/home/02.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.container4 {
+  min-height: 100vh;
+  background-image: url("../imgs/home/04.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.mediumTitle {
+  width: 650px;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.obc {
+  color: #555252;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  color: #b9b9b9;
+}
+
+@media (max-width: 768px) {
+  .mediumTitle {
+    width: auto;
+  }
+
+  .oneBitLogo {
+    width: 220px;
+  }
+}
+@media (max-width: 585px) {
+  .shortTitle {
+    width: auto;
+  }
+}
+@media (max-width: 405px) {
+  .footer {
+    font-size: 10px;
+  }
+
+  .oneBitLogo {
+    width: 180px;
+  }
+}
+@media (max-width: 350px) {
+  .oneBitLogo {
+    width: 150px;
+  }
+}
+.container5 {
+  min-height: 100vh;
+  background-image: url("../imgs/humanFlight/01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.container1Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleHuman {
+  font-size: 120px;
+}
+
+.subtitleHuman {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.container1Content img {
+  width: 130px;
+}
+
+.earthDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textDescEarth {
+  color: #d8d8d8;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+}
+
+.container6 {
+  min-height: 100vh;
+  background-image: url("../imgs/humanFlight/02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.container7 {
+  min-height: 100vh;
+  background-image: url("../imgs/humanFlight/03.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+.container8 {
+  min-height: 100vh;
+  background-image: url("../imgs/humanFlight/04.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.container9 {
+  min-height: 100vh;
+  background-image: url("../imgs/humanFlight/05.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+  color: white;
+}
+
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .container1Content .titleHuman {
+    font-size: 90px;
+  }
+
+  .containerRightContent {
+    margin-left: 15%;
+  }
+
+  .containerLeftContent {
+    margin-left: 15%;
+  }
+
+  .earthDesc .textDescEarth {
+    font-size: 18px;
+    width: auto;
+  }
+}
+@media (max-width: 610px) {
+  .container1Content .titleHuman {
+    font-size: 60px;
+  }
+  .container1Content .subtitleHuman {
+    font-size: 24px;
+  }
+
+  .containerRightContent {
+    margin-left: 5%;
+  }
+
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+
+  .titleSection {
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .container1Content .titleHuman {
+    font-size: 40px;
+  }
+}
+@media (max-width: 405px) {
+  .footer {
+    font-size: 10px;
+  }
+
+  .oneBitLogo {
+    width: 180px;
+  }
+}
+@media (max-width: 350px) {
+  .oneBitLogo {
+    width: 150px;
+  }
+}
+.container10 {
+  background-image: url("../imgs/falcon9/01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.falconTitle {
+  font-size: 90px;
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.titleNumb {
+  font-size: 90px;
+}
+
+.subtitleNumb {
+  font-size: 20px;
+}
+
+.container11 {
+  min-height: 100vh;
+  background-image: url("../imgs/falcon9/02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.falcon9Desc {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+
+.containerFalcon9Desc {
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerCarousel {
+  min-height: 100vh;
+  color: white;
+}
+
+.carousel1 {
+  background-image: url("../imgs/falcon9/03.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel2 {
+  background-image: url("../imgs/falcon9/04.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel3 {
+  background-image: url("../imgs/falcon9/05.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel4 {
+  background-image: url("../imgs/falcon9/06.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.carousel5 {
+  background-image: url("../imgs/falcon9/07.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+td {
+  color: white;
+}
+
+.container12 {
+  min-height: 100vh;
+  background-image: url("../imgs/falcon9/08.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.containerCarousel img {
+  height: 100vh;
+}
+
+.carouselText {
+  background-color: black;
+}
+
+@media (max-width: 768px) {
+  .numbers .titleNumb {
+    font-size: 80px;
+  }
+  .numbers .subtitleNumb {
+    font-size: 18px;
+  }
+
+  .falcon9Desc {
+    width: auto;
+  }
+
+  #overViewPosition {
+    padding-top: 35%;
+  }
+}
+@media (max-width: 583px) {
+  .numbers {
+    height: 60vh;
+  }
+
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 501px) {
+  .downloadDesc button {
+    margin: 10px 0px;
+  }
+}
+@media (max-width: 474px) {
+  .falconTitle {
+    font-size: 50px;
+  }
+
+  .falcon9Desc {
+    font-size: 18px;
+    line-height: auto;
+  }
+
+  .titleContainer p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 405px) {
+  .footer {
+    font-size: 10px;
+  }
+
+  .oneBitLogo {
+    width: 180px;
+  }
+}
+@media (max-width: 350px) {
+  .oneBitLogo {
+    width: 150px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
