@@ -24,3 +24,11 @@
 <h2>Jogo da Velha</h2>
 <details><strong>Jogo da Velha</strong> feito baseado no <a href='https://www.youtube.com/watch?v=0EiX9c4vzRs'>vídeo</a> do canal <a href='https://www.youtube.com/c/dicasparadevs'>dicasparadevs</a></details>
 <p><a href='https://htmlpreview.github.io/?https://github.com/lucas1337dev/projetos-pessoais/blob/main/Jogo%20da%20Velha/index.html'>Clique aqui</a> para ver mais!</p>
+
+<hr>
+
+<h2>Lista de Tarefas</h2>
+<details><strong>Lista de Tarefas</strong> feita baseada no <a href='https://www.youtube.com/watch?v=0bNeKAzVvlE&t=2s'>vídeo</a> do canal <a href='https://www.youtube.com/c/dicasparadevs'>dicasparadevs</a></details>
+<p><a href='https://htmlpreview.github.io/?https://github.com/lucas1337dev/projetos-pessoais/blob/main/Lista%20de%20Tarefas/index.html'>Clique aqui</a> para ver mais!</p>
+
+<hr>
