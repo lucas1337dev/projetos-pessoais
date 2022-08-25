@@ -6,4 +6,5 @@
 <p><a href='https://htmlpreview.github.io/?https://github.com/lucas1337dev/projetos-pessoais/blob/main/Calculadora%20de%20Calorias/index.html'>Clique aqui</a> para ver mais!</p>
 <hr>
 <h2>Calculadora</h2>
-<detail><strong>Calculadora feita baseada no <a href='https://www.youtube.com/watch?v=93wPYo1pjic'>vídeo</a> do canal <a href='https://www.youtube.com/c/dicasparadevs'>dicasparadevs</a></strong>!</details>
+<details><strong>Calculadora feita baseada no <a href='https://www.youtube.com/watch?v=93wPYo1pjic'>vídeo</a> do canal <a href='https://www.youtube.com/c/dicasparadevs'>dicasparadevs</a></strong>!</details>
+<p><a href='https://htmlpreview.github.io/?https://github.com/lucas1337dev/projetos-pessoais/blob/main/Calculadora/index.html'>Clique aqui</a> para ver mais!</p>
