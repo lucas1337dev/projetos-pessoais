@@ -33,5 +33,3 @@ blueWatch.addEventListener('click', () => {
     titleText.textContent = 'Skeleton Audemars Piguet'
     watchImg.classList.remove('fade-in')
 })
-
-// #27426d #e5c4ab #3c1114
