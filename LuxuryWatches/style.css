@@ -105,8 +105,17 @@ main {
     cursor: pointer;
 }
 
+@keyframes scale{
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
+}
+
 .iconImg:hover {
-    transform: scale(1.5);
+    animation: scale 0.3s forwards;
 }
 
 button {
