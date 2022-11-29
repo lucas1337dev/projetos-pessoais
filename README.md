@@ -58,6 +58,11 @@
 <details><strong>LuxuryWatches</strong> é um projeto próprio feito com a intenção de ser uma <em>landing page</em>.</details>
 <p><a href='https://htmlpreview.github.io/?https://github.com/lucas1337dev/projetos-pessoais/blob/main/LuxuryWatches/index.html'>Clique aqui</a> para ver o projeto!</p>
 
+<h3>🎧 Razer Headsets Idea</h3>
+<details><strong>RazerSets</strong> é um projeto próprio feito com a intenção de ser uma <em>landing page</em>.<details>
+<p><a href='https://htmlpreview.github.io/?https://github.com/lucas1337dev/projetos-pessoais/blob/main/RazerHeadsets/DarkThemeIdea/index.html'>Clique aqui</a> para ver o projeto versão Dark Theme!</p>
+<p><a href='https://htmlpreview.github.io/?https://github.com/lucas1337dev/projetos-pessoais/blob/main/RazerHeadsets/LightThemeIdea/index.html'>Clique aqui</a> para ver o projeto versão Light Theme!</p>
+
 <hr>
 
 <h3>🚀 SpaceX</h3>
